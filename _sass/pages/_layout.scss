@@ -7,6 +7,12 @@
   min-height: 400px;
   padding: 30px 15px 20px;
   z-index: 1;
+  @include media-query($tiny-screen) {
+	background-image: url('/img/sidebar_bg_korea_m.jpg');
+	background-size: auto cover;
+    background-position: center;
+    padding: 30px;
+  }
   @include media-query($small-screen) {
 	background-image: url('/img/sidebar_bg_korea_m.jpg');
 	background-size: cover;
