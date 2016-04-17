@@ -10,6 +10,7 @@ title: "ZetaCode"
 email: "bsh0236@gmail.com"
 description: "An engineer's programming stories"
 baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://zetacode.com"
 twitter_username: jekyllrb
 github_username:  bavernet
 
