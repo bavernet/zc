@@ -16,6 +16,7 @@
   @include media-query($medium-screen) {
 	background-image: url('/img/sidebar_bg_korea.jpg');
 	background-size: auto cover;
+	background-position: right;
     height: 100vh;
     position: initial;
     width: 100%;
