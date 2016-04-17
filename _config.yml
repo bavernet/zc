@@ -6,16 +6,46 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: ZetaCode
-email: bsh0236@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: "ZetaCode"
+email: "bsh0236@gmail.com"
+description: "An engineer's programming stories"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zetacode.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  bavernet
 
 # Build settings
 markdown: kramdown
+
+# Site Owner configuration
+owner:
+  name: Baver
+  avatar: baver.jpg
+  job: "Research & System Engineer"
+  bio: "Enjoy programming life"
+  email: bsh0236@gmail.com
+  disqus-shortname: baver
+  twitter:
+  facebook:
+  google:
+    plus:
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
