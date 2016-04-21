@@ -29,7 +29,7 @@ owner:
   facebook:
   google:
     plus:
-    analytics:
+    analytics: 'UA-76755767-1'
     verify:
     ad-client:
     ad-slot:
