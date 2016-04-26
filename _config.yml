@@ -24,7 +24,8 @@ owner:
   job: "Research & System Engineer"
   bio: "Enjoy programming life"
   email: bsh0236@gmail.com
-  disqus-shortname: baver
+  comments: true
+  disqus-shortname: zetacode
   twitter:
   facebook:
   google:
