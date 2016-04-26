@@ -138,8 +138,9 @@ $$ gcd(a, b) $$를 구하는 **Euclidean Algorithm**의 확장된 개념으로,
 
 $$ gcd(a, b) = ax + by $$
 
-Euclidean Algorithm에서 Extended Euclidean Algorithm을 증명해가는 과정은 메인이 아니기 때문에
-여기서는 Extended Euclidean Algorithm을 이용해서 나머지 연산에 대한 곱셈의 역원을 구하는 것에 집중하겠다.
+Euclidean Algorithm에서 Extended Euclidean Algorithm을 증명해가는 과정은
+첨부파일을 확인하면 쉽게 알 수 있기 때문에 여기서는
+Extended Euclidean Algorithm을 이용해서 나머지 연산에 대한 곱셈의 역원을 구하는 것에 집중한다.
 Extended Euclidean Algorithm에 대한 증명이 궁금하다면
 [Extended Euclidean Algorithm Prove]({{ site.url }}/attach/xeuclid.pdf)<sup>[1]</sup> 를
 참조하면 쉽게 이해할 수 있다.
