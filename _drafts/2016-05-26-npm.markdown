@@ -45,6 +45,8 @@ https://docs.npmjs.com
  - web framework
 1. express-generator
  - express project 생성
+1. express-session
+ - session 기능
 1. morgan
  - log 남기는 미들웨어(콘솔)
 1. winston
