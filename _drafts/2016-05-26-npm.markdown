@@ -46,7 +46,9 @@ https://docs.npmjs.com
 1. express-generator
  - express project 생성
 1. morgan
- - log 남기는 미들웨어
+ - log 남기는 미들웨어(콘솔)
+1. winston
+ - log 남기는 미들웨어(파일, 콘솔, 네트워크 가능)
 1. websocket
  - HTML5 표준으로 web socket을 만들 수 있는 API를 제공
 1. socket.io
