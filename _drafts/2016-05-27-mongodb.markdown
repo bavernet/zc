@@ -1,0 +1,110 @@
+---
+layout: post
+title:  "NPM (Nodejs Packaged Module) 이란?"
+date:   2016-05-24 16:03:24 +0900
+categories: NodeJS
+tags: NodeJS, NPM
+excerpt: "NodeJS 외부모듈 활용 방법을 알아본다."
+---
+
+## 데몬 띄우기
+
+mongod --dbpath c:\mongodb\db --storageEngine=mmapv1
+
+## dbms 접속
+
+mongo
+
+## npm의 기본적인 사용법
+
+1. 내 모듈과 관련된 dependencies 자동 생성
+npm install [module_name] -y --save # For end-user
+npm install [module_name] -y --dev # For developer
+
+1. npm 모듈 삭제
+npm remove [module_name]
+
+1. package.json 파일 생성
+npm init
+
+1. dependency 있는 모든 모듈 설치
+npm install
+
+1. main script 실행
+ 1. package.json에 "scripts"에 실행명령어 작성
+ 1. npm start 실행
+
+1. 추가적인 도움 문서
+
+https://docs.npmjs.com
+
+## 유용한 npm module ##
+
+1. ejs
+ - ASP, JSP와 같은 형태로 HTML 중간에 코드 삽입할 수 있는 템플릿 엔진
+1. jade
+ - 독자적인 형태를 가지고 있는 템플릿 엔진
+ - html tag는 tab을 통해서 구분하고, javascript는 '-' 기호를 앞에 붙여 사용
+1. async
+ - callback hell을 해결할 수 있는 방법 제공
+1. node-inspector
+ - chrome browser를 이용하여 debugging 할 수 있는 방법
+1. express
+ - web framework
+1. express-generator
+ - express project 생성
+1. express-session
+ - session 기능
+1. morgan
+ - log 남기는 미들웨어(콘솔)
+1. winston
+ - log 남기는 미들웨어(파일, 콘솔, 네트워크 가능)
+1. websocket
+ - HTML5 표준으로 web socket을 만들 수 있는 API를 제공
+1. socket.io
+ - web socket과 같은 기능을 하지만, 표준이 아닌 독자적인 모듈
+ - 구형 브라우저도 동작할 수 있도록 client용 ActiveX를 같이 배포
+
+## 참고 사이트
+
+http://bit.ly/nodejsedu/
+https://sites.google.com/site/nodejsedu/
+
+
+{% highlight nodejs %}
+var buff = new Buffer(1024);
+var array = new Array(1024);
+
+console.log(buff[12]);
+console.log(array[12]);
+
+buff[0] = 1;
+buff[1] = 2;
+buff[2] = 255;
+buff[3] = 256;
+for (var i = 0; i < buff.length; ++i) {
+	console.log(buff[i]);
+}
+
+console.log("buff[2]", buff[2]);
+console.log("buff[3]", buff[3]);
+
+var buff2 = new Buffer("ABCDabcd한글", "utf-8");
+console.log(buff2[0]);
+console.log(buff2[1]);
+console.log(buff2[2]);
+console.log(buff2);
+console.log(buff2.toString());
+
+var buff3 = buff2.slice(4, 8);
+buff2[4] = 67;
+console.log(buff3.toString());
+
+var buff4 = new Buffer(buff2.length);
+buff2.copy(buff4, 0, 0, buff2.length);
+console.log(buff4.toString());
+console.log(buff4.constructor.name);
+console.log(buff4.__proto__.__proto__.constructor.name);
+{% endhighlight %}
+
+
