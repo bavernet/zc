@@ -84,6 +84,16 @@
     }
   }
 }
+.dnsever-links {
+  margin-top: 0.5em;
+  display: none;
+  @include media-query($medium-screen) {
+	display: inline-block;
+    text-align: right;
+    margin: 0 auto;
+    padding: 0 0px 80px;
+  }
+}
 .nav-list {
   margin: 0;
   padding: 0;
