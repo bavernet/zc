@@ -16,6 +16,10 @@ github_username:  bavernet
 
 # Build settings
 markdown: kramdown
+timezone: Asia/Seoul
+encoding: utf-8
+future: true
+lsi: true
 
 # Site Owner configuration
 owner:
